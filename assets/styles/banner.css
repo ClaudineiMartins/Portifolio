@@ -1,0 +1,121 @@
+.banner{
+    background: var(--azul-claro);
+    width: 1080px;
+    margin: 0 auto;
+    /* display: inline-block; */
+    /* padding: 0em 4em; */
+    display: grid;
+    grid-template-rows: repeat(5, auto);
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "apresentacao foto"
+    "nome foto"
+    "profissao foto"
+    "texto foto"
+    "botao foto";
+    gap: 5px;
+    align-items: center;
+    
+    
+
+}
+.banner_apresentacao-inicial {
+    justify-self: start;
+    grid-area: apresentacao;
+    font-weight: 500;
+    font-size: 24px;
+
+}
+.banner_apresentacao-Nome {
+    font-size: 75px;
+    font-weight: 700;
+    grid-area: nome;
+}
+.banner_apresentacao-profissao {
+    font-size: 24px;
+    font-weight: 500;
+    grid-area:profissao ;
+}
+.banner_apresentacao-profissao_funcao {
+    color: var(--azul-escuro);
+    font-size: 24px;
+    font-weight: 500;
+}
+.banner_apresentacao-texto{
+    font-size: 18px;
+    color: var(--cinza) ;
+    grid-area: texto;
+    
+}
+.banner_apresentacao-botao {
+    grid-area: botao;
+    
+
+}
+
+.banner_Perfil{
+    justify-self:end;
+    grid-area: foto;
+    position: relative;
+    width: fit-content;
+}
+.foto_perfil {
+    width: 400px;
+}
+.perfil_sticker{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+      "icone texto"
+      "icone numero";
+    
+    justify-content: start;
+    align-items: center;
+
+    width: 230px;
+    height: 60px;
+    backdrop-filter: blur(10px) ;
+    background: var(--azul-Claro);
+    border: 1px solid var(--azul-comContraste);
+    border-radius: 5px;
+    position: absolute;
+}
+.perfil_sticker p, .perfil_sticker h1 {
+    padding-left: 20px;
+}
+.perfil_sticker img {
+    grid-area: icone;
+
+}
+.perfil_sticker p{
+    grid-area: texto;
+    font-weight: 500;
+    font-size: 15px;
+   
+}
+.perfil_sticker h1 {
+    grid-area: numero;
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--cinza);
+}
+.perfil_sticker-Projetos {
+
+    top: 110px;
+    left: -110px;
+
+}
+.perfil_sticker-Experiencia{
+    bottom: 80px;
+    left: -140px;
+
+}
+.perfil_sticker-Premios{
+    top: 50px;
+    right: -120px;
+}
+.perfil_sticker-Clientes{
+    right: -135px;
+    bottom: 135px;
+}

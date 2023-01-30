@@ -1,0 +1,28 @@
+
+.cabecalho{
+    width: 100vw;
+    height: 4em;
+    position:fixed;
+    top: 0;
+    backdrop-filter: blur(8px);
+    z-index: 1;
+    /* background: var(--azul-Claro); */
+}
+ul {
+    padding: 0px 25px ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2em;
+    height: 4em; 
+}
+a{
+    color: var(--cinza-Escuro);
+    text-decoration: none;
+}
+.botao_vamosConectar{
+    color: var(--branco);
+    background: var(--azul-escuro);
+    border-radius: 20px;
+    padding: 10px;
+}

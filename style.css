@@ -1,0 +1,27 @@
+@import url("assets/styles/reset.css");
+@import url("assets/styles/header.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+@import url("assets/styles/toogle-ModoNoturno.css");
+@import url("assets/styles/banner.css");
+:root{
+    --branco:#FFFFFF;
+    --azul-comContraste:rgba(208, 226, 255, 0.3);
+    --azul-claro:rgba(241, 246, 254, 1);
+    --azul-escuro:#1A6CE8;
+    --cinza:#6F6F6F;
+    --cinza-Escuro: rgba(0, 14, 34, 0.8);
+    
+    
+
+
+
+}
+body {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--cinza);
+}
+main {
+    margin: 4.5em 0em 0em 0em;
+}

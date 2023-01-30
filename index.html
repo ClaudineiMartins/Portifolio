@@ -4,9 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="assets/scripts/toogle-DarkMode.js" defer></script>
     <title>Document</title>
 </head>
 <body>
+    <header class="cabecalho"> 
+            <ul class="listas">
+                <li class="lista"><a href="#">Sobre</a> </li>
+                <li class="lista"><a href="#">Projetos</a> </li>
+                <li class="lista lista--botao"> <a class="botao_vamosConectar" href="#">Vamos nos conectar</a> </li>
+
+            </ul>
     
+            
+    </header>
+    <main>
+        <section class="toogle-Modo_noturno">
+            <div>
+                <label id="nomeModo" for="alterador">Dark Mode</label>
+            </div>
+            <div class="checkbox-wrapper-54">
+                <label id="nomeModo" class="switch">
+                  <input id="alterador"  type="checkbox">
+                  <span class="slider"></span>
+                </label>
+              </div>
+        </section>
+        <section class="banner">
+            <div class="banner_apresentacao-inicial">
+                <p >Olá, eu sou</p>
+
+            </div>
+            <div class="banner_apresentacao-Nome">
+                <h1 >Nome Sobrenome</h1> 
+
+            </div>
+            <div class="banner_apresentacao-profissao">
+                <p >e eu sou 
+                    <b class="banner_apresentacao-profissao_funcao">Desenvolvedor Front-End</b></p>
+                    
+            </div>
+            <div class="banner_apresentacao-texto">
+                <p >Tenho 7 anos na indústria e trabalhei em vários projetos para vários clientes que tiveram muito sucesso no passado. Adoro ler e assistir Bobby, meu cachorro.</p>
+                
+            </div>
+            <div class="banner_apresentacao-botao" >
+                <a class=" botao_vamosConectar"  href="#">Vamos nos conectar</a>
+            </div>
+            
+            <div class="banner_Perfil">
+                <img class="foto_perfil" src="assets/images/foto.png" alt="">
+                <div class="perfil_sticker perfil_sticker-Projetos">
+                    <img src="assets/images/icon-Concluido.svg" alt="icone de concluido">
+                    <p>Projetos Concluídos</p>
+                    <h1>100+</h1>
+                </div>
+                <div class="perfil_sticker perfil_sticker-Experiencia">
+                    <img src="assets/images/icon-estrela.svg" alt="icone de estrela simbolizando experiencia">
+                    <p>Anos de Experiência</p>
+                    <h1>10+</h1>
+
+                </div>
+                <div class="perfil_sticker perfil_sticker-Premios">
+                    <img src="assets/images/icon-premio.svg" alt="icone de concluido">
+                    <p>Prêmios recebidos</p>
+                    <h1>5</h1>
+                </div>
+                <div class="perfil_sticker perfil_sticker-Clientes">
+                    <img src="assets/images/icon-rostoFeliz.svg" alt="icone de concluido">
+                    <p>Clientes satisfeitos</p>
+                    <h1>50+</h1>
+                </div>
+            </div>
+
+        </section>
+            
+
+    </main>
 </body>
 </html>
