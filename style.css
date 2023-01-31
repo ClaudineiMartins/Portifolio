@@ -3,13 +3,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
 @import url("assets/styles/toogle-ModoNoturno.css");
 @import url("assets/styles/banner.css");
+@import url("assets/styles/contato.css");
+
+
 :root{
-    --branco:#FFFFFF;
-    --azul-comContraste:rgba(208, 226, 255, 0.3);
+    --branco:rgba(255, 255, 255);
+    --branco_opacidade:rgba(255, 255, 255, .4);
+    --azul-comContraste:rgba(208, 226, 255, 0.6);
     --azul-claro:rgba(241, 246, 254, 1);
     --azul-escuro:#1A6CE8;
-    --cinza:#6F6F6F;
-    --cinza-Escuro: rgba(0, 14, 34, 0.8);
+    --azul-escuro-Opaco:rgba(26, 108, 232, .1);
+    --cinza-Escuro: #4A4D51;
+    --cinza-claro:#C6C6C6;
+    --cinza_Opaco:rgba(74, 77, 81, 0.8);
+    --preto:#1A1A1A;
+   
     
     
 
@@ -21,7 +29,4 @@ body {
     font-size: 18px;
     font-weight: 400;
     color: var(--cinza);
-}
-main {
-    margin: 4.5em 0em 0em 0em;
 }
