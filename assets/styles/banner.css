@@ -1,26 +1,34 @@
 .banner{
+    width: 100vw;
     background: var(--azul-claro);
-    width: 1080px;
-    margin: 0 auto;
-    /* display: inline-block; */
-    /* padding: 0em 4em; */
+    padding-top: 4.5em ;
     display: grid;
     grid-template-rows: repeat(5, auto);
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto auto;
     grid-template-areas: 
     "apresentacao foto"
     "nome foto"
     "profissao foto"
     "texto foto"
     "botao foto";
-    gap: 5px;
+    gap: 30px;
     align-items: center;
-    
+    justify-items: center;
+    justify-content: space-evenly;
     
 
 }
-.banner_apresentacao-inicial {
+.banner_apresentacao-botao,
+.banner_apresentacao-inicial,
+.banner_apresentacao-texto,
+.banner_apresentacao-Nome,
+.banner_apresentacao-profissao {
+    width: 400px;
     justify-self: start;
+    /* padding-left: 80px;
+    padding-right: 160px; */
+}
+.banner_apresentacao-inicial {
     grid-area: apresentacao;
     font-weight: 500;
     font-size: 24px;
@@ -45,16 +53,17 @@
     font-size: 18px;
     color: var(--cinza) ;
     grid-area: texto;
+    text-align: justify;
     
 }
 .banner_apresentacao-botao {
     grid-area: botao;
-    
+    padding-bottom: 20px;
+    padding-top: 20px;
 
 }
 
 .banner_Perfil{
-    justify-self:end;
     grid-area: foto;
     position: relative;
     width: fit-content;
@@ -75,8 +84,8 @@
 
     width: 230px;
     height: 60px;
-    backdrop-filter: blur(10px) ;
-    background: var(--azul-Claro);
+    backdrop-filter: blur(10px)  ;
+    background: rgba(255, 255, 255, .4);
     border: 1px solid var(--azul-comContraste);
     border-radius: 5px;
     position: absolute;
@@ -86,6 +95,7 @@
 }
 .perfil_sticker img {
     grid-area: icone;
+    padding-left: 15px;
 
 }
 .perfil_sticker p{
