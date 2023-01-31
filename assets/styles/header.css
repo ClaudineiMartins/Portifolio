@@ -1,24 +1,27 @@
 
 .cabecalho{
+    display: flex;
+    justify-content: space-between;
     width: 100vw;
     height: 4em;
     position:fixed;
     top: 0;
     backdrop-filter: blur(8px);
     z-index: 1;
-    /* background: var(--azul-Claro); */
+    border-bottom: 1px solid var(--azul-comContraste);
+    background: var(--azul-escuro-Opaco);
+
+    
 }
-ul {
+ul.listas {
     padding: 0px 25px ;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     gap: 2em;
-    height: 4em; 
 }
-a{
+a.link_lista{
     color: var(--cinza-Escuro);
-    text-decoration: none;
 }
 .botao_vamosConectar{
     color: var(--branco);
