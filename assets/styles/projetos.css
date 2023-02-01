@@ -1,0 +1,62 @@
+.projetos_sessao-titulo{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 80px;
+    justify-content: center;
+}
+.projetos_cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+    height: 500px;
+    gap: 30px;
+    
+}
+.projetos_card {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: 
+    "img titulo"
+    "img tecnologias"
+    "img texto"
+    "img icones";
+    background: var(--azul_cards);
+
+}
+.projetos_card_img{
+    grid-area: img;
+    padding-right: 20px;
+
+}
+.projetos_card_titulo {
+    grid-area: titulo;
+    color: var(--azul-escuro);
+    font-size: 40px;
+    font-weight: 600;
+
+}
+.projetos_card-tecnologias{
+    grid-area: tecnologias;
+    display: flex;
+    gap: 20px;
+    color: var(--cinza_Opaco);
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.projetos_card_texto{
+    grid-area: texto;
+    color: var(--cinzaMedio);
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.projetos_card_imagens{
+    grid-area: icones;
+    display: flex;
+    gap: 20px;
+    
+}
