@@ -1,0 +1,42 @@
+footer{
+    padding-top: 100px;
+
+}
+.footer_conectar{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: 
+    "texto botao"
+    "linha linha"
+    "copyright copyright";
+    gap: 30px;
+    padding:0px 80px
+
+}
+.footer_conectar_titulo {
+    grid-area: texto;
+    color: var(--azul-escuro_80);
+    font-size: 60px;
+    font-weight: 600;
+    width: 50%;
+    line-height: 80px;
+
+}
+.footer_conectar_botao{
+    align-self: center;
+    grid-area: botao;
+
+}
+.footer_conectar_linha{
+    grid-area: linha;
+    /* color: var(--azul-escuro_20); */
+}
+.footer_conectar_copyright{
+    border-top: 1px solid var(--azul-escuro_20);
+    padding-top: 30px;
+    grid-area: copyright;
+    color: var(--azul-escuro_53);
+    font-size: 20px;
+    font-weight: 500;
+}
