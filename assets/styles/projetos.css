@@ -1,3 +1,6 @@
+.projetos{
+
+}
 .projetos_sessao-titulo{
     font-size: 40px;
     font-weight: 600;
@@ -9,12 +12,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80vw;
-    height: 500px;
+    width: 100vw;
+    
     gap: 30px;
     
 }
 .projetos_card {
+    width: 80vw;
+    background: var(--azul_cards);
+    border-radius: 20px;
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: repeat(4, auto);
@@ -23,15 +29,19 @@
     "img tecnologias"
     "img texto"
     "img icones";
-    background: var(--azul_cards);
+    
 
 }
 .projetos_card_img{
+    
     grid-area: img;
-    padding-right: 20px;
+    padding-right: 50px;
+    border-radius: 20px;
 
 }
 .projetos_card_titulo {
+    display: flex;
+    align-items: center;
     grid-area: titulo;
     color: var(--azul-escuro);
     font-size: 40px;
@@ -52,11 +62,14 @@
     color: var(--cinzaMedio);
     font-size: 20px;
     font-weight: 400;
-
+    text-align: justify;
+    width: 70%;
 }
 .projetos_card_imagens{
+    align-self: center;
     grid-area: icones;
     display: flex;
     gap: 20px;
+    height: 1em;
     
 }
