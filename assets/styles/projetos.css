@@ -1,6 +1,4 @@
-.projetos{
 
-}
 .projetos_sessao-titulo{
     font-size: 40px;
     font-weight: 600;
@@ -40,6 +38,8 @@
 
 }
 .projetos_card_titulo {
+    flex-wrap: wrap;
+
     display: flex;
     align-items: center;
     grid-area: titulo;
@@ -49,6 +49,8 @@
 
 }
 .projetos_card-tecnologias{
+    flex-wrap: wrap;
+
     grid-area: tecnologias;
     display: flex;
     gap: 20px;
@@ -58,6 +60,8 @@
 
 }
 .projetos_card_texto{
+    flex-wrap: wrap;
+
     grid-area: texto;
     color: var(--cinzaMedio);
     font-size: 20px;

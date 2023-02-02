@@ -33,10 +33,16 @@ footer{
     /* color: var(--azul-escuro_20); */
 }
 .footer_conectar_copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
     border-top: 1px solid var(--azul-escuro_20);
-    padding-top: 30px;
+    /* padding-top: 30px; */
     grid-area: copyright;
     color: var(--azul-escuro_53);
     font-size: 20px;
     font-weight: 500;
+
 }
