@@ -33,6 +33,9 @@ const botaoMudar = document.querySelector ("#alterador");
                 sections.forEach(section => {
                     section.style.background = "#F0F2F4";
                   });
+                  textos.forEach(texto=> {
+                    texto.style.color ="var(--cinza_Opaco)"
+                }); 
                   
             }
         }
