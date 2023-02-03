@@ -24,14 +24,12 @@ footer{
 
 }
 .footer_conectar_botao{
+    width: max-content;
     align-self: center;
     grid-area: botao;
 
 }
-.footer_conectar_linha{
-    grid-area: linha;
-    /* color: var(--azul-escuro_20); */
-}
+
 .footer_conectar_copyright{
     display: flex;
     flex-direction: column;
