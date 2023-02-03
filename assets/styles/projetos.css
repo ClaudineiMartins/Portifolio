@@ -37,6 +37,9 @@
     border-radius: 20px;
 
 }
+.projetos_card_img img {
+    border-radius: 20px 0px 0px 20px;
+}
 .projetos_card_titulo {
     flex-wrap: wrap;
 
