@@ -71,6 +71,7 @@
     font-weight: 400;
     text-align: justify;
     width: 70%;
+    line-height: 24px;
 }
 .projetos_card_imagens{
     align-self: center;
