@@ -129,3 +129,67 @@
     right: -135px;
     bottom: 135px;
 }
+@media screen and (max-width:1024px){
+    .banner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .banner_apresentacao-inicial {
+        font-size: 18px;
+    }
+    .banner_apresentacao-Nome {
+        font-size: 56px;
+    }
+    .banner_apresentacao-profissao {
+        font-size: 18px;
+        
+    }
+    .banner_apresentacao-texto {
+        font-size: 16px;
+        text-align: justify;
+        line-height: 20px;
+
+    }
+    .banner_apresentacao-botao {
+        text-align: center;
+        
+    }
+    .foto_perfil {
+        width: 250px;
+    }
+    .perfil_sticker {
+        width: 145px;
+        height: 45px;
+    }
+    .perfil_sticker img {
+        width: 30px;
+        padding-left: 5px;
+    }
+    .perfil_sticker p, .perfil_sticker h1 {
+        padding-left: 10px;
+    }
+    .perfil_sticker p {
+        font-size: 10px;
+    }
+    .perfil_sticker h1 {
+        font-size: 20px;
+    }
+    .perfil_sticker-Projetos {
+        top: -12px;
+        left: -75px;
+    }
+    .perfil_sticker-Experiencia {
+        bottom: 22px;
+        left: -73px;
+    }
+    .perfil_sticker-Premios {
+        top: 24px;
+        right: -62px;
+    }
+    .perfil_sticker-Clientes {
+        right: -85px;
+        bottom: 18px;
+    }
+}
