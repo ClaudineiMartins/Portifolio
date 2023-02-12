@@ -30,3 +30,18 @@ a.link_lista{
     border-radius: 20px;
     padding: 10px;
 }
+
+@media screen and (max-width: 1024px) {
+   
+    
+    ul.listas {
+        padding: 0 25px 0 0;
+        gap: 0.5em;
+    }
+    a.link_lista {
+        font-size: 14px;
+    }
+    .botao_vamosConectar {
+        font-size: 16px;
+    }
+}
