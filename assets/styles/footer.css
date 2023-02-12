@@ -44,3 +44,23 @@ footer{
     font-weight: 500;
 
 }
+@media screen and (max-width: 1024px) {
+    section.footer_conectar {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_conectar_titulo {
+        width: 80%;
+        font-size: 20px;
+        line-height: 18px;
+
+    }
+    .footer_conectar_botao {
+        align-self: flex-start;
+    }
+    .footer_conectar_copyright {
+        font-size: 12px;
+        height: 50px;
+    }
+
+}
