@@ -84,3 +84,42 @@
     height: 1em;
     
 }
+@media screen and (max-width: 1024px){
+    .projetos_card{
+        width: 100vw;
+        grid-template-columns: auto;
+        grid-template-areas: 
+        "img"
+        "titulo"
+        "tecnologias"
+        "texto"
+        "icones";
+        align-items: center;
+        justify-items: center;
+
+        
+    }
+    .projetos_card_img img {
+        width: 350px;
+    }
+    .projetos_card_img {
+        padding-right: 0px;
+
+    }
+    .projetos_card_titulo {
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .projetos_card-tecnologias {
+        gap: 5px;
+        font-size: 14px;
+    }
+    .projetos_card_texto {
+        box-sizing: border-box;
+        padding: 10px 10px;
+        width: 100%;
+        line-height: 18px;
+
+    }
+
+}
