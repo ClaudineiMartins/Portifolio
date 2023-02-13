@@ -86,7 +86,7 @@
 }
 @media screen and (max-width: 1024px){
     .projetos_card{
-        width: 100vw;
+        width: 95%;
         grid-template-columns: auto;
         grid-template-areas: 
         "img"
@@ -101,16 +101,20 @@
     }
     .projetos_card_img img {
         width: 350px;
+        margin-top: 20px;
+        border-radius: 0 0 20px 20px;
     }
     .projetos_card_img {
         padding-right: 0px;
 
     }
     .projetos_card_titulo {
+        margin-top: 10px;
         font-size: 24px;
         font-weight: 600;
     }
     .projetos_card-tecnologias {
+        margin-top: 10px;
         gap: 5px;
         font-size: 14px;
     }
@@ -118,8 +122,10 @@
         box-sizing: border-box;
         padding: 10px 10px;
         width: 100%;
-        line-height: 18px;
+        line-height: 16px;
 
     }
-
+    .projetos_card_imagens {
+        padding-bottom: 10px;
+    }
 }
