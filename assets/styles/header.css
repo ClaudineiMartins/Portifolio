@@ -7,7 +7,7 @@
     height: 4em;
     position:fixed;
     top: 0;
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px) ;
     z-index: 1;
     border-bottom: 1px solid var(--azul-comContraste);
     background: var(--azul-escuro-Opaco);
@@ -32,11 +32,18 @@ a.link_lista{
 }
 
 @media screen and (max-width: 1024px) {
+    .cabecalho {
+        backdrop-filter: blur(8px) brightness(0.5);
+    
+    }
    
     
     ul.listas {
         padding: 0 25px 0 0;
         gap: 0.5em;
+    }
+    a.link_lista {
+        color: var(--branco);
     }
     a.link_lista {
         font-size: 14px;
